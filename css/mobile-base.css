@@ -1,0 +1,184 @@
+
+
+#login_comprimida{
+    display: none;
+    visibility: inherit;
+}
+
+.barra_superior_comprimida{
+  display: none;
+}
+
+.barra_superior_comprimida img {
+    margin-top: -100%;
+}
+
+.barra_superior_comprimida ul li {
+  display: none;
+}
+
+.barra_superior_comprimida  input{
+  display: none;
+}
+
+
+@media (max-width: 1000px){
+  .barra_superior_comprimida {
+    margin-top: 0;
+    display: block;
+    background-color: #04032b;
+    width: 100%;
+    position: relative;
+    height: 7%;
+    text-align: center;
+  }
+
+  .barra_superior_comprimida img {
+      margin-top: 1%;
+      margin-right: -20%;
+      /*float: left;*/
+  }
+  .barra_superior_comprimida ul li {
+    display: block;
+    float: right;
+    height: 100%;
+    width: 20%;
+  }
+
+
+  .barra_superior_comprimida ul li:hover{
+    background-color: #ccc;
+    color:#555;
+  }
+
+
+
+  .barra_superior_comprimida ul li label{
+    text-decoration: none;
+    color: #f1f1f1;
+    /*background-color: #ccc;*/
+    padding: 14%;
+    display:block;
+    text-align: center;
+  }
+
+  /*Faz abrir a caixa de login*/
+    #login_comprimida{
+        /*display: inline-block;*/
+        float: right;
+        width: 40%;
+        background-color: #ccc;
+        height: 20%;
+        z-index: 10;
+        position: relative;
+        text-align: center;
+        font-size: 100%;
+        /*border-radius: 0.2vw;
+        border: 1px solid #555;*/
+    }
+
+    #login_comprimida input{
+        margin-top: 5%;
+        padding: 3%;
+        width: 80%;
+        border: 1px solid #555;
+        border-radius: 2vw;
+    }
+
+
+    /*comprimir barra superior desktop--------------*/
+    #barra_superior {
+      display: none;
+    }
+
+    /*-------------menu expandir menu lateral*/
+    .menu{
+      width: 50%;
+    }
+    label[for="bt_menu"]{
+      display: block;
+    }
+
+    #bt_menu:checked ~ .menu{
+      margin-left: 0;
+      background-color: #ccc;
+      z-index: 10;
+    }
+
+    .menu{
+      height: 100%;
+      float:left;
+      position: fixed;
+      margin-top: 5px;
+      margin-left: -100%;
+      transition: all .4s;
+
+    }
+
+    .menu ul li:hover ul{
+      display: none;
+      /*position: relative;*/
+    }
+    .menu ul li{
+      width: 110%;
+      margin-left: -40;
+      border-bottom: solid 1px #ccc;
+    }
+    .menu ul ul {
+      position: absolute;
+      overflow: hidden;
+      z-index: 11;
+    }
+
+    .menu ul ul li{
+      position: relative;
+      margin-left: -10%;
+      float:  none;
+      border-bottom: solid 1px #ccc;
+    }
+
+    .menu ul ul li a{
+      width: 100%;
+      background-color: #75a6ce;
+    }
+    /*------------are de Trabalho*/
+    .area_de_trabalho{
+      width: 90%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .area_de_eventos{
+      width: 100%;
+      height: auto;
+    }
+    .area_ativa{
+      height: auto;
+    }
+
+    /*------------------tht*/
+    .tht{
+      align-items: center;
+      text-align: center;
+      background-color: #CCC;
+      position: absolute;
+      width: 100%;
+      height: auto;
+      margin-top: 130%;
+    }
+
+    .tht_caicxa{
+      display: inline-block;
+      margin-left: -1%;
+
+    }
+    .tht_caicxa img{
+      float: right;
+      width: 10%;
+      height: 10%;
+    }
+
+  /*---------- tablelas*/
+  .texto_tabelado {
+    margin-left: 0;
+    width: 100%;
+  }

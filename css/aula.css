@@ -1,0 +1,160 @@
+/*.duas-caixa{
+  background-color: #ccf;
+}*/
+.disciplina{
+  width: 70%;
+  /*background-color: #fed;*/
+}
+.tres-caixa{
+  margin-top: 2%;
+  height: 40px;
+}
+
+.labgrad{
+  width: 30%;
+}
+
+ .disciplina_janela {
+   min-width: 200px;
+ }
+ .disciplina_janela input{
+   width: 100%;
+ }
+.disciplina_janela_expandido{
+    max-width: 198px;
+}
+
+.labgrad_janela{
+  width: 30px;
+}
+.labgrad_janela input{
+  width: 100%;
+}
+.labgrad_janela_expandido{
+  max-width: 28px;
+  text-align: center;
+}
+
+.caixa3-direita i, .disciplina, .labgrad, .caixa3-esquerda i{
+  display: flex;
+  justify-content: center;
+  /*background-color: #fed;*/
+}
+
+.caixa3-direita, .caixa3-esquerda{
+  align-items: flex-end;
+}
+.caixa3-centro{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /*background-color: #ff2;*/
+  font-size: 20px;
+}
+
+.coluna{
+  /*width: 12.5%;*/
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  border-radius: 5%;
+}
+
+th{
+  width: 12.5%;
+  height: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*background-color: #fec;*/
+}
+
+.fds{
+  background-color: #fed;
+  /*background-color: #aa;*/
+  opacity: 0.5;
+}
+
+.mes, .dia_mes{
+  /*background-color: #fff;*/
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.horario{
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.celula{
+  height: 37px;
+  margin: 3px;
+  font-size: 16px;
+}
+
+.sub_titulo{
+  color: #444;
+  font-size: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.principal_titulo{
+    font-size: 16px;
+}
+
+.disponivel{
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #ddd;
+  background-color: #CCE6FF;
+  /*border: 2px dashed #aaa;*/
+  color: #777;
+}
+
+.disponivel:hover {
+  /*background-color:#CCE6FF;*/
+  background-color: #eee;
+
+}
+
+.indisponivel{
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.ocupado{
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fdd;
+}
+.marcada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color:#b6f0d3;
+}
+
+.fds td{
+  background: #fed;
+}

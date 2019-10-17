@@ -1,0 +1,294 @@
+
+.add_conta{
+  /*background-color: #fed;*/
+  margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.modulo_area_eventos{
+  margin: 1% 5% 2% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+
+.titulo_add{
+  width: 100%;
+  font-size: 30px;
+}
+
+
+.celula{
+  height: 37px;
+  margin: 3px;
+  font-size: 16px;
+}
+
+
+.btn:hover{
+  background-color: #ccc;
+  color:  #555;
+}
+
+
+.tabela{
+  background-color: #e3e3e3;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1%;
+  border:1px solid #CCC;
+}
+
+.linha_tabela{
+  background-color: #fff;
+  margin-left: 10%;
+}
+.tabela th{
+  font-size: 20px;
+  border-bottom: 1px solid #CCC;
+}
+
+
+.modulo_campo_nome{
+  width: 50%;
+  border-bottom: 1px solid #ccc;
+  /*background-color: #fde;*/
+}
+.moulo_campo_acao{
+  width: 100%;
+  /*height: 100%;*/
+  margin-right:  1%;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.modulo_acao a, .mod_capo_codgo a{
+  padding: 2px;
+  text-decoration: none;
+  color: #544;
+  border: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.mod_capo_codgo{
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10%;
+}
+
+.seta_baixo{
+  width: 3%;
+}
+
+.seta_baixo i{
+    background-color: #ccc;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.seta_baixo i:hover{
+  background-color: #aaa;
+}
+.descrica_conta{
+  display: none;
+  /*height: 70px;*/
+  width: 100%;
+  background-color: #cccc;
+}
+
+
+.tab_descricao{
+    padding-left: 100px;
+    width: 100%;
+    font-size: 15px;
+    padding: 3px;
+}
+.tab_descricao th{
+  text-align: left;
+  font-size: 15px;
+}
+
+.tab_descricao tr{
+  border-bottom: 1px solid #222;
+}
+.data_descrico{
+    /*border-top: 1px solid #bbb;*/
+    text-align: center;
+}
+
+.paginacao{
+  background-color: #4763A9;
+  /*margin-top: 1%;*/
+  width: 15%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+
+}
+
+.paginacao a{
+  width: 25%;
+  font-size: 15px;
+  text-decoration: none;
+  /*color: #555;*/
+  color: #ffff;
+}
+
+.pag_atual{
+  border-bottom: 2px solid #ffff;
+  border-radius:0;
+}
+
+.dropdown_paginacao{
+    margin-left: 5px;
+    font-size: 15px;
+    /*background-color: #fc2;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginacao_janela, .filtro_janela {
+  width: 40px;
+}
+.paginacao_janela input{
+  width: 100%;
+}
+.paginacao_janela_expandido, .filtro_janela_expandido{
+  width: 38px;
+}
+.filtro{
+  display: flex;
+  align-items: center;
+
+}
+.filtro select{
+  /*background-color: #fc4;*/
+  width: 100px;
+  height: 30px;
+  /*-webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+  -moz-appearance: none; /* Remove estilo padrão do FireFox */*/
+  appearance: none; /* Remove estilo padrão do FireFox*/
+  font-family: 'Arial';
+  text-align: center;
+}
+.alinha_espasado{
+  margin-top: 1%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /*display: none;*/
+}
+
+/*=====================================
+
+=================log==================
+
+========================================*/
+.selecao_filtro{
+  /*background-color: #ddf;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.selecao_filtro input{
+  /*background-color: #efc;*/
+  /*width: 70px;*/
+  width: 100%;
+}
+
+.celula{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /*background-color: #edc;*/
+  width: 20%;
+}
+
+.input_data input{
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+.btn_filtar_log{
+  display: flex;
+  justify-content:  flex-end;
+}
+
+.usuario_janela input{
+  width: 100%;
+}
+
+.tab_descricao{
+    max-height: 150px;
+    overflow: auto;
+}
+.titulo_log{
+  text-align: center;
+  font-size: 17px;
+}
+.linha_log{
+  margin-left: 2%;
+}
+.linha_filho_log{
+  margin-left: 4%;
+
+}
+
+
+@media (max-width: 1000px){
+
+  .selecao_filtro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+
+  .selecao_filtro input{
+    /*background-color: #efc;*/
+    width: 100%;
+  }
+
+  .celula{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*background-color: #edc;*/
+    width: 45%;
+  }
+
+.usuario_janela input{
+    width: 272px;
+  }
+
+  .btn_filtar_log{
+    display: flex;
+    justify-content:  flex-end;
+
+  }
+
+}
